@@ -1,7 +1,6 @@
 # μT-Kernel application firmware
 人体の圧力値をリアルタイムで測定できる装置  
 [英語版](./1_000_EN_General_firmware_design.md)
-Demo video: 
 
 ## 目次
 
