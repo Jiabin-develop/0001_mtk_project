@@ -1,0 +1,81 @@
+{
+    "folders": [
+        {
+            "path": "."
+        },
+        {
+            "path": "../mtb_shared"
+        }
+    ],
+    "settings": {
+        //mtb//  If this project will be shared with multiple users, the
+        //mtb//  modustoolbox.toolsPath property must be placed in user settings
+        //mtb//  file instead of this file.  The user settings file location for
+        //mtb//  VSCode depends on your OS:
+        //mtb//
+        //mtb//      Windows: %APPDATA%\Code\User\settings.json
+        //mtb//      macOS  : $HOME/Library/Application Support/Code/User/settings.json
+        //mtb//      Linux  : $HOME/.config/Code/User/settings.json
+        //mtb//
+        "modustoolbox.toolsPath": "C:/Users/WANGJiabin/ModusToolbox/tools_3.2",
+        "cortex-debug.armToolchainPath": "${config:modustoolbox.toolsPath}/gcc/bin",
+        "cortex-debug.openocdPath": "${config:modustoolbox.toolsPath}/../../../../Infineon/Tools/ModusToolboxProgtools-1.1/openocd/bin/openocd.exe",
+        "cortex-debug.JLinkGDBServerPath.windows": "C:/Program Files/SEGGER/JLink/JLinkGDBServerCL.exe",
+        "cortex-debug.JLinkGDBServerPath.osx": "/Applications/SEGGER/JLink/JLinkGDBServerCLExe",
+        "cortex-debug.JLinkGDBServerPath.linux": "JLinkGDBServerCLExe",
+        "files.associations": {
+            "tmonitor.h": "c",
+            "task1.h": "c",
+            "task2.h": "c",
+            "string.h": "c",
+            "random": "c",
+            "i2c_user.h": "c",
+            "algorithm": "c",
+            "functional": "c",
+            "optional": "c",
+            "system_error": "c",
+            "type_traits": "c",
+            "xtr1common": "c",
+            "xutility": "c",
+            "array": "c",
+            "tuple": "c",
+            "utility": "c",
+            "ssd1306.h": "c",
+            "ranges": "c",
+            "span": "c",
+            "vector": "c",
+            "xstring": "c",
+            "string": "c",
+            "string_view": "c",
+            "max30102.h": "c",
+            "stdio.h": "c",
+            "user_task.h": "c",
+            "common.h": "c",
+            "stdint.h": "c",
+            "cmath": "c",
+            "task_lcd.h": "c",
+            "task_hr_sensor.h": "c",
+            "machine.h": "c",
+            "cy_sysint.h": "c",
+            "int_armv7m.h": "c",
+            "syslib.h": "c",
+            "task_template.h": "c",
+            "filter.h": "c",
+            "cybsp.h": "c",
+            "user_peripheral.h": "c"
+        },
+        "clangd.arguments": [
+            "--query-driver=${config:modustoolbox.toolsPath}/gcc/bin/arm-none-eabi-gcc",
+            "--log=verbose",
+            "--background-index",
+            "--compile-commands-dir=${workspaceFolder}/build"
+        ]
+    },
+    "extensions": {
+        "recommendations": [
+            "marus25.cortex-debug",
+            "ms-vscode.cpptools",
+            "dan-c-underwood.arm"
+        ]
+    }
+}

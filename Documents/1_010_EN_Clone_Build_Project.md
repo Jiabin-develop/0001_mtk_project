@@ -1,0 +1,33 @@
+# Clone and Build the project by VScode
+- Setup the environment with vscode for ModusToolbox development
+    - [VS Code](https://code.visualstudio.com/)
+    - Add plugins
+        - ![alt text](imgs/1_010_image.png)
+- Clone the project.
+- Open the workspace.
+    - ![alt text](imgs/1_010_open_workspace.png)
+
+- Choose the workspace file that was cloned
+    - ![alt text](imgs/1_010_choose_workspace.png)
+- The project is open now
+    - ![alt text](imgs/1_010_project_open.png)
+- Go to the ModusToolbox tool <strong>!now the tool is not ready yet!</strong>
+    - ![alt text](imgs/1_010_tool_not_ready_1.png)
+    - ![alt text](imgs/1_010_tool_not_ready_2.png)
+- Get the ModusToolbox tools    
+    - ![alt text](imgs/1_010_get_tool_lib.png)
+- Waiting vscode to install the packages
+    - ![alt text](imgs/1_010_wait_tool_install.png)
+- The packages are successfully installed!
+    - ![alt text](imgs/1_010_tool_installed.png)
+- Build the project
+    - ![alt text](imgs/1_010_build_project.png)
+- Then wait for the building of the project. It takes very long time...
+    - ![alt text](imgs/1_010_building_project.png)
+- After waiting for a while, the project build finished successfully.
+    - ![alt text](imgs/1_010_build_finish.png)
+- Open the programmer
+    - ![alt text](imgs/1_010_programmer_1.png)
+- Program the device
+    - ![alt text](imgs/1_010_programmer_2.png)
+    - ![alt text](imgs/1_010_programmer_3.png)
