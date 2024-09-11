@@ -2,9 +2,9 @@
 # Project using μT-Kernel RTOS
 ## Details about the project
 - English
-    - [Documents\1_000_EN_General_firmware_design.md](Documents\1_000_EN_General_firmware_design.md)
+    - [Documents/1_000_EN_General_firmware_design.md](Documents/1_000_EN_General_firmware_design.md)
 - 日本語
-    - [Documents\2_000_JP_General_firmware_design.md](Documents\2_000_JP_General_firmware_design.md)
+    - [Documents/2_000_JP_General_firmware_design.md](Documents/2_000_JP_General_firmware_design.md)
 
 
 ## Milestones:
