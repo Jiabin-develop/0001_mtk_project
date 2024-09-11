@@ -523,6 +523,10 @@
 
 1. ## 追加情報
    - ストレスがどのように測定されるかについて: [心拍変動 (HRV)](https://my.clevelandclinic.org/health/symptoms/21773-heart-rate-variability-hrv)
+   - Driver libraries used in this project:
+    - [LCD for HAL](https://github.com/4ilo/ssd1306-stm32HAL/tree/master)
+    - [sensor IC: max30102](https://github.com/eepj/stm32-max30102)
+
 
 
 1. ## 参考資料

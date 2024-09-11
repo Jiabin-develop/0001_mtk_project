@@ -1,14 +1,19 @@
-### Markers:
+
+# Project using μT-Kernel RTOS
+## Details about the project
+- English
+    - [Documents\1_000_EN_General_firmware_design.md](Documents\1_000_EN_General_firmware_design.md)
+- 日本語
+    - [Documents\2_000_JP_General_firmware_design.md](Documents\2_000_JP_General_firmware_design.md)
+
+
+## Milestones:
 - 2024/06/22 Start creating the project
 - 2024/06/23 Read the documentation [【実習】μT-Kernel 入門 (協力：ルネサス エレクトロニクス )](https://www.tron.org/ja/wp-content/uploads/sites/2/2018/04/TEF071-W003-171121_02.pdf)
 - 2024/06/29 
-    - Tasks created, achived task communication and synchronization, using command
+    - Tasks created, achieved task communication and synchronization, using command
     - Start building the interface for the LCD 
         - [LCD online store](https://www.amazon.co.jp/gp/product/B0C9X72TPM/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
-        - [LCD SSD1306](https://github.com/lexus2k/ssd1306)
-        - [LCD clock](https://github.com/ThingPulse/esp8266-oled-ssd1306/blob/master/examples/SSD1306ClockDemo/SSD1306ClockDemo.ino)
-        - [LCD simple version](https://github.com/Matiasus/SSD1306)
-        - [LCD for MCU](https://github.com/libdriver/ssd1306/tree/master)
         - [LCD for HAL](https://github.com/4ilo/ssd1306-stm32HAL/tree/master)
         - interface implementation
             - Hal I2C `2024/06/30`
@@ -26,26 +31,10 @@
     - LCD display
     - Signal processing
     - LCD signal drawing
-- 2024/08/19
+- 2024/08/25
     - LCD information showing, layout tune
-
-        
-### trick memo
-- tk_snd_mbf 
-    - in a interrupt handler:
-        ```c
-        tk_snd_mbf(mbfid_1, &task1_cmd, sizeof(task1_cmd), TMO_POL);
-        ```
-    - in a normal task
-        ```c
-        tk_snd_mbf(mbfid_1, &task1_cmd, sizeof(task1_cmd), TMO_FEVR);
-        ```
-
-### Guide can be written
-- How to set GPIO interrupt
-    - Register interrupt using the cyhal GPIO API 
-        - `cyhal_gpio_register_callback`
-    - Register interrupt using the μT-Kernel interrupt management system
+- 2024/09/08
+    - Documentations
 
 ### References:
 - Enviromental setup
