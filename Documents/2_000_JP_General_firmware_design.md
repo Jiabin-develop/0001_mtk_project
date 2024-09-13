@@ -26,6 +26,7 @@
 1. [プロジェクトビルド](#プロジェクトビルド)
 1. [追加情報](#追加情報)
 1. [参考資料](#参考資料)
+1. [声明](#声明)
 
 
 ---
@@ -139,6 +140,9 @@
       - tasks（タスク）
       - interrupt（割り込み）
       - peripheral（周辺機器） 
+        - 以下のペリフェラルドライバは、次のリポジトリのクローンです:
+          - HR_sensor: https://github.com/eepj/stm32-max30102
+          - LCD_ssd1306: https://github.com/4ilo/ssd1306-stm32HAL/tree/master
       
       ```
         0000_mtk_project/
@@ -531,4 +535,14 @@
 
 1. ## 参考資料
    - Infineon KIT_XMC72_EVK ドキュメント: [KIT_XMC72_EVKのドキュメント](https://www.infineon.com/dgdl/Infineon-KIT_XMC72_EVK-V1.0.pdf?fileId=)
+
+1. ## 説明
+  - 使用する既存ソフトウェアの名称、権利者、入手方法、機能などの具体的な情報をドキュメントに記載しています。
+    - [ソフトウェア概要](#ソフトウェア概要)
+    - peripheral（周辺機器） 
+        - 以下のペリフェラルドライバは、次のリポジトリのクローンです:
+          - HR_sensor: https://github.com/eepj/stm32-max30102
+          - LCD_ssd1306: https://github.com/4ilo/ssd1306-stm32HAL/tree/master
+  - 主催者が応募プログラムを評価するために利用する既存ソフトウェアを無償で提供し、コンテストの表彰式終了後1週間程度まで利用可能な状態にしておきます。
+  - 応募規約に基づき、使用する既存ソフトウェアに関する著作権などの権利処理をすべて完了していることを保証します。これにより、主催者および共催者が適切に権利処理されていることを確認できます。
 

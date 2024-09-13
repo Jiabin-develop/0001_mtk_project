@@ -137,6 +137,9 @@ Human body stress checker.
         - tasks
         - interrupt
         - peripheral
+            - The following peripheral drivers are a clone of the following repository:
+                - `HR_sensor`: https://github.com/eepj/stm32-max30102
+                - `LCD_ssd1306`:https://github.com/4ilo/ssd1306-stm32HAL/tree/master 
         By including the head file `user_xxx.h`, the resources in that folder can be used.
           ```
             0000_mtk_project/
@@ -501,3 +504,14 @@ Human body stress checker.
 
 1. ## References
     - Infineon KIT_XMC72_EVK Documentation: https://www.infineon.com/dgdl/Infineon-KIT_XMC72_EVK-V1.0.pdf?fileId=
+
+1. ## Clarifications
+    - he specific details of the existing software used, including the name, rights holder, method of acquisition, and its functions in the provided documentation.
+        - [Software](#software-overview)
+        - - peripheral
+            - The following peripheral drivers are a clone of the following repository:
+                - `HR_sensor`: https://github.com/eepj/stm32-max30102
+                - `LCD_ssd1306`:https://github.com/4ilo/ssd1306-stm32HAL/tree/master 
+    - The existing software used in the project will be made available to the organizers free of charge, ensuring it remains accessible until approximately one week after the contest's award ceremony for evaluation purposes.
+    - In compliance with the contest rules, we confirmed that all necessary copyright and rights-related processing for the used existing software has been completed.
+
