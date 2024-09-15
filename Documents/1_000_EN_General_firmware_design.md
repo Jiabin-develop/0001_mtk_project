@@ -4,6 +4,7 @@ Human body stress checker.
 
 ## Table of contents
 1. [Project Overview](#project-overview)
+1. [Demo](#demo)
 1. [Hardware](#hardware-overview)
 1. [Software](#software-overview)
 1. [Design Description](#design-description)
@@ -52,6 +53,14 @@ Human body stress checker.
     - The project is going to be open source as an example for quickly start the development of μT-Kernel. The files and directories are well organized by resources, which makes it easy to be expanded with more features. The detail information about the implementation is also appended, which allows to understand the implementation. 
     - The implementation is implemented in event-driven concept. It is for the low-power consumption design purpose. All task execution are performed only when a target event happens. If there is no event request the execution of the task, the task is in a block status, which can allow MCU to be put into a low-power mode. A timer is implemented to turn off the sensor and display if the sensor is not running. By pushing the user button, the measurement can be resumed.
 
+1. ## Demo
+  - video
+    - [Real-time stress kit powered by μT-Kernel RTOS](https://www.youtube.com/watch?v=7KXQxcySnug)
+  - Comparison with a medical device
+    - Heart rate
+      - Medical device (left):62 BPM
+      - μT-Kernel stress kit (right): 63 BPM
+      - ![alt text](imgs/1_010_compare.png)
 
 1. ## Hardware Overview
     - [Kit XMC72 EVK](https://www.infineon.com/cms/en/product/evaluation-boards/kit_xmc72_evk/)
@@ -503,7 +512,7 @@ Human body stress checker.
     - How the stress is measured: https://my.clevelandclinic.org/health/symptoms/21773-heart-rate-variability-hrv
 
 1. ## References
-    - Infineon KIT_XMC72_EVK Documentation: https://www.infineon.com/dgdl/Infineon-KIT_XMC72_EVK-V1.0.pdf?fileId=
+    - Infineon KIT_XMC72_EVK Documentation: https://www.infineon.com/cms/en/product/evaluation-boards/kit_xmc72_evk/
 
 1. ## Clarifications
     - he specific details of the existing software used, including the name, rights holder, method of acquisition, and its functions in the provided documentation.

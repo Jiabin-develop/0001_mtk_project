@@ -5,6 +5,7 @@
 ## 目次
 
 1. [プロジェクト概要](#プロジェクト概要)
+1. [デモ](#デモ)
 1. [ハードウェア](#ハードウェア概要)
 1. [ソフトウェア概](#ソフトウェア概要)
 1. [設計説明](#設計説明)
@@ -55,6 +56,13 @@
    - このプロジェクトは、オープンソースとして公開されます。ファイルやディレクトリはリソースごとに整理されており、機能を簡単に拡張できるようになっています。また、実装に関する詳細な情報も公開しています。
    - 実装はイベント駆動の概念に基づいており、低消費電力設計を目的としています。すべてのタスク実行はターゲットイベントが発生したときにのみ行われます。タスク実行の要求がない場合、タスクはブロック状態となり、MCUを低消費電力モードにすることができます。センサーとディスプレイが動作していない場合に自動的にオフにするタイマーが実装されており、ユーザーボタンを押すことで測定が再開されます。
 
+1. ## デモ
+  - [Real-time stress kit powered by μT-Kernel RTOS](https://www.youtube.com/watch?v=7KXQxcySnug)
+  - Comparison with a medical device
+    - 心拍数
+      - 医療機器 (左):62 BPM
+      - μT-Kernel stress kit (右): 63 BPM
+      - ![alt text](imgs/1_010_compare.png)
 
 1. ## ハードウェア概要
    - [Kit XMC72 EVK](https://www.infineon.com/cms/en/product/evaluation-boards/kit_xmc72_evk/)
@@ -534,7 +542,7 @@
 
 
 1. ## 参考資料
-   - Infineon KIT_XMC72_EVK ドキュメント: [KIT_XMC72_EVKのドキュメント](https://www.infineon.com/dgdl/Infineon-KIT_XMC72_EVK-V1.0.pdf?fileId=)
+   - Infineon KIT_XMC72_EVK ドキュメント: [KIT_XMC72_EVKのドキュメント](https://www.infineon.com/cms/en/product/evaluation-boards/kit_xmc72_evk/)
 
 1. ## 説明
   - 使用する既存ソフトウェアの名称、権利者、入手方法、機能などの具体的な情報をドキュメントに記載しています。
