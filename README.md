@@ -6,6 +6,14 @@
 - 日本語
     - [Documents/2_000_JP_General_firmware_design.md](Documents/2_000_JP_General_firmware_design.md)
 
+## Demo
+- video
+    - [Real-time stress kit powered by μT-Kernel RTOS](https://www.youtube.com/watch?v=7KXQxcySnug)
+    - Comparison with a medical device
+    - Heart rate
+        - Medical device (left):62 BPM
+        - μT-Kernel stress kit (right): 63 BPM
+        - ![alt text](/Documents/imgs/1_010_compare.png)
 
 ## Milestones:
 - 2024/06/22 Start creating the project
@@ -44,4 +52,4 @@
     - [VS Code](https://code.visualstudio.com/)
     - [Kit XMC72 EVK](https://www.infineon.com/cms/en/product/evaluation-boards/kit_xmc72_evk/)
     - [ModusToolBox Vscode](https://www.infineon.com/dgdl/Infineon-ModusToolbox_3.1_Visual_Studio_Code_User_Guide-UserManual-v01_00-EN.pdf?fileId=8ac78c8c88704c7a0188a18b83824e58)
-    - [step by step](https://github.com/Jiabin-develop/knowhow_share_public/blob/main/MTB_MTK/MTB_MTK_VSCODE.md)
+    - [step by step MTK VSCODE setup](https://github.com/Jiabin-develop/knowhow_share_public/blob/main/MTB_MTK/MTB_MTK_VSCODE.md)
